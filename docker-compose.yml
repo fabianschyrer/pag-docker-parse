@@ -10,8 +10,8 @@ services:
     volumes:
       - ssl_data:/etc/resty-auto-ssl
     environment:
-      ALLOWED_DOMAINS: 'dev.romanstark.de'
-      SITES: 'dev.romanstark.de=parse-dashboard:4040'
+      ALLOWED_DOMAINS: 'dev.test.de'
+      SITES: 'dev.test.de=parse-dashboard:4040'
   mongodb:
     image: 'bitnami/mongodb:latest'
     environment:
